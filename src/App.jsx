@@ -1,4 +1,5 @@
-import CounterView from "./features/counter/CounterView"
+import Postview from "./features/posts/Postview"
+
 
 
 function App() {
@@ -6,8 +7,8 @@ function App() {
 
   return (
     <div>
-      <h1>Counter app</h1>
-      <CounterView />
+      <h1>Posts</h1>
+      <Postview />
     </div>
   )
 }
